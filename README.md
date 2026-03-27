@@ -1,19 +1,22 @@
-###WeRateDogs Data Wrangling & Analysis
-Project Overview: This project involves the full data lifecycle—from gathering data using APIs to cleaning messy data and visualizing insights about the famous "WeRateDogs" Twitter account.
+# WeRateDogs Data Wrangling & Analysis
 
-🛠️ Tech Stack
-Language: Python
+> **Project Overview**: This project involves the full data lifecycle—from gathering data using APIs to cleaning messy data and visualizing insights about the famous "WeRateDogs" Twitter account.
 
-Libraries: Pandas, NumPy, Requests, Tweepy (Twitter API), Matplotlib, Seaborn
+## 🛠️ Tech Stack
+* **Language**: Python
+* **Libraries**: Pandas, NumPy, Requests, Tweepy (Twitter API), Matplotlib, Seaborn
 
-🧹 The Wrangling Process
-I addressed over 10 quality and tidiness issues, including:
+## 🧹 The Wrangling Process
+I addressed over 10 quality and tidiness issues to ensure the data was ready for analysis:
 
-API Integration: Extracted retweet and favorite counts using the Tweepy library.
+### 1. Data Acquisition
+* **API Integration**: Extracted retweet and favorite counts using the **Tweepy** library.
+* **Web Scraping**: Procured image predictions from a URL using the **Requests** library.
 
-Data Cleaning: Corrected timestamp formats, removed HTML tags from sources, and merged dog classifications (doggo, floofer, pupper, puppo).
+### 2. Data Cleaning
+* **Structural Fixes**: Corrected timestamp formats and removed HTML tags from the 'source' column.
+* **Feature Engineering**: Concatenated rating columns to form a unified 'rating' metric.
 
-📊 Key Insights
-Engagement Winner: Found that "puppers" (younger dogs) consistently receive higher levels of retweets and favorites compared to "doggos".
-
-Breed Trends: Breeds like Golden Retrievers consistently achieved the highest ratings and engagement.
+## 📊 Key Insights
+* **Engagement Winner**: "Puppers" (younger dogs) consistently achieve higher retweets and favorites than "doggos".
+* **Creative Impact**: Humorous and witty captions paired with high ratings generate significantly more interaction.
