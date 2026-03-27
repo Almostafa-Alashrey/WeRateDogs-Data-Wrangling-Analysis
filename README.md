@@ -1,4 +1,4 @@
-WeRateDogs Data Wrangling & Analysis
+###WeRateDogs Data Wrangling & Analysis
 Project Overview: This project involves the full data lifecycle—from gathering data using APIs to cleaning messy data and visualizing insights about the famous "WeRateDogs" Twitter account.
 
 🛠️ Tech Stack
