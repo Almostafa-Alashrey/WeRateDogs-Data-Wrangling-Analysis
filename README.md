@@ -2,11 +2,11 @@
 
 > **Project Overview**: This project involves the full data lifecycle—from gathering data using APIs to cleaning messy data and visualizing insights about the famous "WeRateDogs" Twitter account.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Language**: Python
 * **Libraries**: Pandas, NumPy, Requests, Tweepy (Twitter API), Matplotlib, Seaborn
 
-## 🧹 The Wrangling Process
+## The Wrangling Process
 I addressed over 10 quality and tidiness issues to ensure the data was ready for analysis:
 
 ### 1. Data Acquisition
@@ -17,6 +17,6 @@ I addressed over 10 quality and tidiness issues to ensure the data was ready for
 * **Structural Fixes**: Corrected timestamp formats and removed HTML tags from the 'source' column.
 * **Feature Engineering**: Concatenated rating columns to form a unified 'rating' metric.
 
-## 📊 Key Insights
+## Key Insights
 * **Engagement Winner**: "Puppers" (younger dogs) consistently achieve higher retweets and favorites than "doggos".
 * **Creative Impact**: Humorous and witty captions paired with high ratings generate significantly more interaction.
